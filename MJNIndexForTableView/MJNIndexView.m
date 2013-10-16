@@ -636,14 +636,14 @@
 
     
     // some easter eggs ;)
-    if ([self.section integerValue] == 3 * self.times) {
-        self.times ++;
-        if (self.times == 5) {
-            self.dot = YES;
-            [self setNeedsDisplay];
-        }
-    } else self.times = 0;
-    
+//    if ([self.section integerValue] == 3 * self.times) {
+//        self.times ++;
+//        if (self.times == 5) {
+//            self.dot = YES;
+//            [self setNeedsDisplay];
+//        }
+//    } else self.times = 0;
+
     // if pan stopped we can deacellerate animation, reset position and hide curtain
     self.animate = YES;
     [self resetPosition];
