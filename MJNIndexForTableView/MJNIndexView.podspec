@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'MJNIndexView'
-  s.version      = '1.0.0'
+  s.version      = '0.0.1'
   s.summary      = 'MJNIndexView'
   s.description  = <<-DESC
                    MJNIndexView is a highly customizable UIControl which displays an alternative index for UITableView.
